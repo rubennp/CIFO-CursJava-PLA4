@@ -9,7 +9,7 @@ public class Main {
 	
 	public static void main(String[] args) throws Exception {
 		try {
-			MySQL db = new MySQL("localhost", "3306", "cifo_ex_pla4", "rubennp", "I5@5l97B");
+			MySQL db = new MySQL("localhost", "3306", "cifo_ex_pla4", "root", "");
 			
 			do {
 				Menu menuPrincipal = new Menu("PRINCIPAL");
